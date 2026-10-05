@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.courses {
+    padding: 20px;
+}
+
+.course-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid#ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+@media (min-width: 768px) {
+    .course-container {
+        flex-direction: row;
+    }
+
+    .card {
+        flex: 1;
+    }
